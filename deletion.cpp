@@ -15,7 +15,7 @@ int main()
         cout<<a[i]<<" ";
     //Deletion Using position/value
     int num,pos,value;
-    cout<<"\nDelete element by \n 1. Position \n 2. Value"<<endl;
+    cout<<"\nDelete element by \n 1. Position \n 2. Value\n";
     cin>>num;
     switch(num)
     {
@@ -47,7 +47,7 @@ int main()
                  for(int i=0;i<len;i++)
                     cout<<a[i]<<" ";
                  break;
-        default : cout<<"Invalid Input"<<endl;
+        default : cout<<"Invalid Input\n";
     }
 return 0;
 }
